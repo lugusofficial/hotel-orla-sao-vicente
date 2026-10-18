@@ -1,0 +1,435 @@
+{
+ "nome": "Sua Marca",
+ "cidade": "São Vicente",
+ "apartamentos": 52,
+ "tipos": {
+  "premium": {
+   "nome": "Suíte Premium",
+   "pagina": "suite-premium.html",
+   "hosp": 2,
+   "mar": true,
+   "resumo": "hidromassagem, cama queen e vista ao mar, 12 m²"
+  },
+  "familia": {
+   "nome": "Suíte Família",
+   "pagina": "suite-familia.html",
+   "hosp": 4,
+   "mar": true,
+   "resumo": "dois ambientes, cama queen e duas de solteiro, 16 m²"
+  },
+  "varanda": {
+   "nome": "Duplo com Varanda",
+   "pagina": "duplo-varanda.html",
+   "hosp": 2,
+   "mar": true,
+   "resumo": "varanda com vista ao mar e cama queen, 14 a 15 m²"
+  },
+  "triplo": {
+   "nome": "Quarto Triplo",
+   "pagina": "triplo.html",
+   "hosp": 3,
+   "mar": true,
+   "resumo": "cama queen e uma de solteiro, 15 m², com ou sem vista"
+  },
+  "casalmar": {
+   "nome": "Casal com vista ao mar",
+   "pagina": "acomodacoes.html#com-vista",
+   "hosp": 2,
+   "mar": true,
+   "resumo": "cama queen e janela para o mar, 14 m²"
+  },
+  "semvista": {
+   "nome": "Casal, Twin ou Individual sem vista",
+   "pagina": "acomodacoes.html#sem-vista",
+   "hosp": 2,
+   "mar": false,
+   "resumo": "a opção mais em conta, 12 a 13 m², janela lateral ou interna"
+  }
+ },
+ "andares": [
+  {
+   "numero": 1,
+   "quartos": [
+    {
+     "numero": 101,
+     "tipo": "premium",
+     "posicaoNaFachada": 0,
+     "vista": "mar",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 102,
+     "tipo": "familia",
+     "posicaoNaFachada": 1,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 103,
+     "tipo": "familia",
+     "posicaoNaFachada": 2,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 104,
+     "tipo": "varanda",
+     "posicaoNaFachada": 3,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 105,
+     "tipo": "varanda",
+     "posicaoNaFachada": 4,
+     "vista": "mar",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 106,
+     "tipo": "triplo",
+     "posicaoNaFachada": 5,
+     "vista": "mar",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 107,
+     "tipo": "triplo",
+     "posicaoNaFachada": 6,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 108,
+     "tipo": "casalmar",
+     "posicaoNaFachada": 7,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 109,
+     "tipo": "casalmar",
+     "posicaoNaFachada": 8,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 110,
+     "tipo": "semvista",
+     "posicaoNaFachada": 9,
+     "vista": "lateral",
+     "status": "disponivel"
+    },
+    {
+     "numero": 111,
+     "tipo": "semvista",
+     "posicaoNaFachada": 10,
+     "vista": "lateral",
+     "status": "disponivel"
+    },
+    {
+     "numero": 112,
+     "tipo": "semvista",
+     "posicaoNaFachada": 11,
+     "vista": "lateral",
+     "status": "disponivel"
+    },
+    {
+     "numero": 113,
+     "tipo": "triplo",
+     "posicaoNaFachada": 12,
+     "vista": "mar",
+     "status": "disponivel"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "quartos": [
+    {
+     "numero": 201,
+     "tipo": "premium",
+     "posicaoNaFachada": 0,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 202,
+     "tipo": "familia",
+     "posicaoNaFachada": 1,
+     "vista": "mar",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 203,
+     "tipo": "familia",
+     "posicaoNaFachada": 2,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 204,
+     "tipo": "varanda",
+     "posicaoNaFachada": 3,
+     "vista": "mar",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 205,
+     "tipo": "varanda",
+     "posicaoNaFachada": 4,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 206,
+     "tipo": "triplo",
+     "posicaoNaFachada": 5,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 207,
+     "tipo": "triplo",
+     "posicaoNaFachada": 6,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 208,
+     "tipo": "casalmar",
+     "posicaoNaFachada": 7,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 209,
+     "tipo": "casalmar",
+     "posicaoNaFachada": 8,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 210,
+     "tipo": "semvista",
+     "posicaoNaFachada": 9,
+     "vista": "lateral",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 211,
+     "tipo": "semvista",
+     "posicaoNaFachada": 10,
+     "vista": "lateral",
+     "status": "disponivel"
+    },
+    {
+     "numero": 212,
+     "tipo": "semvista",
+     "posicaoNaFachada": 11,
+     "vista": "lateral",
+     "status": "disponivel"
+    },
+    {
+     "numero": 213,
+     "tipo": "casalmar",
+     "posicaoNaFachada": 12,
+     "vista": "mar",
+     "status": "disponivel"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "quartos": [
+    {
+     "numero": 301,
+     "tipo": "premium",
+     "posicaoNaFachada": 0,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 302,
+     "tipo": "familia",
+     "posicaoNaFachada": 1,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 303,
+     "tipo": "familia",
+     "posicaoNaFachada": 2,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 304,
+     "tipo": "varanda",
+     "posicaoNaFachada": 3,
+     "vista": "mar",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 305,
+     "tipo": "varanda",
+     "posicaoNaFachada": 4,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 306,
+     "tipo": "triplo",
+     "posicaoNaFachada": 5,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 307,
+     "tipo": "triplo",
+     "posicaoNaFachada": 6,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 308,
+     "tipo": "casalmar",
+     "posicaoNaFachada": 7,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 309,
+     "tipo": "casalmar",
+     "posicaoNaFachada": 8,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 310,
+     "tipo": "semvista",
+     "posicaoNaFachada": 9,
+     "vista": "lateral",
+     "status": "disponivel"
+    },
+    {
+     "numero": 311,
+     "tipo": "semvista",
+     "posicaoNaFachada": 10,
+     "vista": "lateral",
+     "status": "disponivel"
+    },
+    {
+     "numero": 312,
+     "tipo": "semvista",
+     "posicaoNaFachada": 11,
+     "vista": "lateral",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 313,
+     "tipo": "triplo",
+     "posicaoNaFachada": 12,
+     "vista": "mar",
+     "status": "disponivel"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "quartos": [
+    {
+     "numero": 401,
+     "tipo": "premium",
+     "posicaoNaFachada": 0,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 402,
+     "tipo": "familia",
+     "posicaoNaFachada": 1,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 403,
+     "tipo": "familia",
+     "posicaoNaFachada": 2,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 404,
+     "tipo": "varanda",
+     "posicaoNaFachada": 3,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 405,
+     "tipo": "varanda",
+     "posicaoNaFachada": 4,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 406,
+     "tipo": "triplo",
+     "posicaoNaFachada": 5,
+     "vista": "mar",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 407,
+     "tipo": "triplo",
+     "posicaoNaFachada": 6,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 408,
+     "tipo": "casalmar",
+     "posicaoNaFachada": 7,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 409,
+     "tipo": "casalmar",
+     "posicaoNaFachada": 8,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 410,
+     "tipo": "semvista",
+     "posicaoNaFachada": 9,
+     "vista": "lateral",
+     "status": "disponivel"
+    },
+    {
+     "numero": 411,
+     "tipo": "semvista",
+     "posicaoNaFachada": 10,
+     "vista": "lateral",
+     "status": "disponivel"
+    },
+    {
+     "numero": 412,
+     "tipo": "semvista",
+     "posicaoNaFachada": 11,
+     "vista": "lateral",
+     "status": "disponivel"
+    },
+    {
+     "numero": 413,
+     "tipo": "casalmar",
+     "posicaoNaFachada": 12,
+     "vista": "mar",
+     "status": "disponivel"
+    }
+   ]
+  }
+ ]
+}

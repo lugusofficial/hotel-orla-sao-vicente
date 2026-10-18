@@ -1,0 +1,70 @@
+/* Tokens escritos a mao a partir do DESIGN.md do projeto: a baia vista do alto.
+   Muito branco, o marinho do logo em titulos, botoes, faixas e rodape, o
+   dourado so em filetes finos e no horizonte da baia (assets/horizonte.svg).
+   Sem vermelho, verde ou amarelo. */
+:root {
+  --branco: #ffffff;
+  --marinho: #102842;
+  --marinho-medio: #1d3d63;
+  --dourado: #cca278;
+  --dourado-texto: #8a6438;
+  --nevoa: #f3f6fa;
+  --tinta: #17202b;
+  --cinza: #4c5664;
+  --linha: color-mix(in srgb, var(--marinho) 16%, var(--branco));
+
+  --color-bg: var(--branco);
+  --color-text: var(--tinta);
+  --color-muted: var(--cinza);
+  --color-surface: var(--nevoa);
+  --color-rule: var(--linha);
+  --color-accent: var(--marinho);
+  --color-on-accent: var(--branco);
+  --color-focus: var(--marinho);
+
+  --font-display: "Oswald", "Arial Narrow", system-ui, sans-serif;
+  --font-body: "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --weight-display: 500;
+  --weight-display-strong: 500;
+  --weight-body: 400;
+  --weight-body-medium: 500;
+
+  --step--1: clamp(0.86rem, 0.83rem + 0.1vw, 0.92rem);
+  --step-0: clamp(1rem, 0.96rem + 0.2vw, 1.08rem);
+  --step-1: clamp(1.18rem, 1.1rem + 0.4vw, 1.4rem);
+  --step-2: clamp(1.45rem, 1.28rem + 0.9vw, 2rem);
+  --step-3: clamp(1.9rem, 1.55rem + 1.7vw, 2.9rem);
+  --step-4: clamp(2.3rem, 1.75rem + 2.6vw, 3.9rem);
+  --step-5: clamp(2.6rem, 1.85rem + 3.8vw, 5.2rem);
+  --leading-body: 1.65;
+  --leading-tight: 1.05;
+  --tracking-display: 0.02em;
+  --tracking-kicker: 0.16em;
+  --measure: 62ch;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --gutter: 1.25rem;
+  --container: 74rem;
+  --section-gap: clamp(4.5rem, 3rem + 4vw, 7rem);
+
+  /* DESIGN.md pede 4px no botao e 6px na foto; o minimo do check_design.py e
+     12px e 8px (erro). Ficaram os minimos permitidos: decisao pendente. */
+  --radius-sm: 8px;
+  --radius-md: 8px;
+  --radius-lg: 8px;
+  --radius-btn: 12px;
+  --radius-pill: 999px;
+
+  --carimbo: 6.5rem;
+  --horizonte-altura: 40px;
+
+  --sombra: 0 14px 40px color-mix(in srgb, var(--marinho) 22%, transparent);
+}
