@@ -1,4 +1,8 @@
-// Tour 360 em que se anda. Cada quarto e um panorama
+// Tour 360 so de olhar: a camera fica parada no centro do panorama e o
+// visitante gira e olha em volta (pedido do cliente em 18/10/2026: sem andar).
+// O codigo de andar continua abaixo, desligado por PARADO.
+//
+// Origem: tour em que se anda. Cada quarto e um panorama
 // equirretangular com um mapa de distancia (assets/tour/<no>-d.png). O
 // panorama nao e projetado numa esfera lisa: cada vertice da esfera vai para a
 // distancia que o mapa diz, entao chao, paredes, mesas e baloes ficam onde
@@ -15,7 +19,8 @@
 // - Tudo o que o tour mostra tambem esta escrito na lista de espacos da pagina.
 
 const ALTURA = 1.4, DMIN = 0.3, DMAX = 40;   // iguais ao script que gera os mapas
-const FOLGA = 1.4;                           // distancia minima de parede, em metros
+const FOLGA = 1.4;
+const PARADO = true;                         // so girar: limitar() prende a camera no centro                           // distancia minima de parede, em metros
 
 const raiz = document.querySelector('[data-tour]');
 if (raiz) iniciar(raiz);
@@ -147,6 +152,7 @@ function iniciar(raiz) {
   }
 
   function limitar(x, z) {
+    if (PARADO) return { x: 0, z: 0 };
     const lim = atual.andar;
     let dist = Math.hypot(x, z);
     if (dist < 1e-4) return { x, z };
